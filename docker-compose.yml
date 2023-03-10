@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  mysql:
+    image: 'mysql:latest'
+    ports:
+      - 3310:3308
+    environment:
+      - MYSQL_DATABASE=db_search
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=root
+      - MYSQL_RANDOM_ROOT_PASSWORD="yes"
+  Etcd:
+    image: 'bitnami/etcd:latest'
+    environment:
+      - ALLOW_NONE_AUTHENTICATION=yes
+    ports:
+      - 2379:2379
