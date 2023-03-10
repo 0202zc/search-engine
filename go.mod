@@ -21,7 +21,7 @@ require (
 
 require (
 	github.com/bytedance/gopkg v0.0.0-20220531084716-665b4f21126f // indirect
-	github.com/choleraehyq/pid v0.0.13 // indirect
+	github.com/choleraehyq/pid v0.0.16 // indirect
 	github.com/cloudwego/netpoll v0.2.2 // indirect
 	github.com/cloudwego/thriftgo v0.1.2 // indirect
 	github.com/coreos/go-semver v0.3.0 // indirect
