@@ -1,6 +1,6 @@
 module searchengine3090ti
 
-go 1.18
+go 1.20
 
 require github.com/wangbin/jiebago v0.3.2
 
