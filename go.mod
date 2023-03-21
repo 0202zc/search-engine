@@ -13,7 +13,7 @@ require (
 	github.com/liyue201/gostl v1.1.0
 	github.com/mozillazg/go-pinyin v0.19.0
 	github.com/stretchr/testify v1.8.2
-	google.golang.org/protobuf v1.29.0
+	google.golang.org/protobuf v1.29.1
 	gorm.io/driver/mysql v1.4.7
 	gorm.io/gorm v1.24.6
 	gorm.io/plugin/opentracing v0.0.0-20211220013347-7d2b2af23560
